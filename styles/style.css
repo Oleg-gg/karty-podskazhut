@@ -84,6 +84,9 @@ button:disabled {
   border-block-end: 1px solid currentColor;
   padding-block: 20px;
 }
+.header__logo a{
+  color: inherit;
+}
 
 .header__theme-toggler {
   display: flex;
@@ -244,13 +247,13 @@ button:disabled {
   block-size: 0.5ch;
   background-color: var(--accent-color);
   inset-block-end: 0.3ch;
-  inset-inline-start: -4px;
+  inset-inline-start: -7px;
 } 
 
 /* Стили футер */
 
 .footer {
-  margin-block-start: 10px;
+  margin-block-start: 143px;
   border-block-start: 1px solid currentColor;
   padding: 2.5%;
   text-align: center;
